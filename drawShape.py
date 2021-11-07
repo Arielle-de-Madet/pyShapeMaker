@@ -34,5 +34,11 @@ def Centro(Tamano, CaracterDeseado, flash):
 def Derecha(Tamano, CaracterDeseado, flash):
     return ""
 
-def PonerLetras(Tamano, LetraDeseada, flash):
-    return ""
+def PonerLetras(Tamano, LetraDeseada):
+    MiFila = ""
+    for x in range(0, Tamano):
+        # print(LetraDeseada, end="\n")
+        MiFila += LetraDeseada
+    return MiFila
+
+print(PonerLetras(20, "#"))
