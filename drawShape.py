@@ -26,19 +26,10 @@ def GetLineFeed (outputType, flash):
     return ""
 
 def Izquierda(Tamano, CaracterDeseado, flash):
-    return ""
+    return  CaracterDeseado * Tamano
 
 def Centro(Tamano, CaracterDeseado, flash):
-    return ""
+    return  CaracterDeseado * Tamano
 
 def Derecha(Tamano, CaracterDeseado, flash):
-    return ""
-
-def PonerLetras(Tamano, LetraDeseada):
-    MiFila = ""
-    for x in range(0, Tamano):
-        # print(LetraDeseada, end="\n")
-        MiFila += LetraDeseada
-    return MiFila
-
-print(PonerLetras(20, "#"))
+    return  CaracterDeseado * Tamano
